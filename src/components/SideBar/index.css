@@ -1,0 +1,57 @@
+nav {
+  width: 4vw; /* Initial width */
+  height: 100vh;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(247, 243, 243);
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: width 0.3s ease; /* Smooth transition for width change */
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: 16px;
+  cursor: pointer; /* Make the logo clickable */
+}
+
+.middelIcons {
+  margin: 16px;
+  margin-bottom: -5px;
+  width: 25px;
+  height: 25px;
+  color: rgb(43, 43, 59);
+  cursor: pointer; /* Make the icons clickable */
+  position: relative;
+}
+
+.expanded {
+  width: 8.5vw; /* Expanded width */
+}
+
+.icon-Heading {
+  display: flex;
+}
+
+.icon-HeadingPara1 {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 17px;
+  margin-left: -5px;
+}
+
+.icon-HeadingPara2 {
+  display: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 17px;
+  margin-left: -5px;
+  transition: opacity 0.3s ease;
+}
+
+.icon-HeadingPara2.show {
+  opacity: 1;
+}

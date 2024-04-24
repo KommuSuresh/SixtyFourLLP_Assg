@@ -1,0 +1,75 @@
+.slider-container {
+  background-color: rgb(214, 243, 243);
+  padding: 40px;
+  border-radius: 5px;
+  width: 60%;
+  margin-left: 9vw;
+  /* margin-right: 25vw; */
+  margin-bottom: 80px;
+}
+.slide {
+  display: flex; /* Ensure all items in the slide are flex items */
+}
+
+.eachSlideItem {
+  width: 23%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.eachSlideContent {
+  background-color: rgb(247, 249, 251);
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%; /* Fill the height of the parent flex container */
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: space-between; /* Align items with space between them */
+}
+
+.eachSlideItem img {
+  width: 100%;
+  height: auto;
+}
+
+.eachSlideContent h3 {
+  font-size: 15px;
+}
+.eachSlideContent p {
+  margin-top: -5px;
+}
+
+.slider {
+  display: flex;
+}
+
+.view-more-container {
+  width: fit-content; /* Adjust width based on content */
+  height: 40px;
+  background-color: rgb(6, 37, 65);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(6, 37, 65);
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+.view-more-container {
+  position: absolute;
+
+  left: 36.5%; /* Center horizontally */
+  transform: translateX(-50%);
+}
+
+.subCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
